@@ -18,3 +18,9 @@ Thumbs.db
 
 # Sublime Files
 .sublime
+
+# Visual Studio
+.vscode/
+Debug/
+.vs
+*.user

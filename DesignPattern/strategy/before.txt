@@ -1,0 +1,52 @@
+#include <iostream>
+
+using namespace std;
+
+class MyProgram {
+public:
+	enum class Mode {
+		ALL,
+		IMAGE,
+		NEWS,
+		MAP
+	};
+
+	Mode mode = Mode::ALL;
+	void setModeAll() { mode = Mode::ALL; }
+	void setModeImage() { mode = Mode::IMAGE; }
+	void setModeNews() { mode = Mode::NEWS; }
+	void setModeMap() { mode = Mode::MAP; }
+};
+
+class SearchButton {
+public:
+	SearchButton(MyProgram _myProgram) : myProgram(_myProgram) { }
+	
+	void onClick() {
+		if (myProgram.mode == MyProgram::Mode::ALL)
+			cout << "Search ALL" << "\n";
+		else if (myProgram.mode == MyProgram::Mode::IMAGE)
+			cout << "Search IMAGE" << "\n";
+		else if (myProgram.mode == MyProgram::Mode::NEWS)
+			cout << "Search NEWS" << "\n";
+		else if (myProgram.mode == MyProgram::Mode::MAP)
+			cout << "Search MAP" << "\n";
+	}
+
+private:
+	MyProgram myProgram;
+};
+
+int main() {
+	MyProgram mp;
+	mp.setModeAll();
+
+	SearchButton sb1(mp);
+	sb1.onClick();
+
+	mp.setModeImage();
+	SearchButton sb2(mp);
+	sb2.onClick();
+
+	return 0;
+}

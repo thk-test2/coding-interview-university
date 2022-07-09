@@ -1017,19 +1017,19 @@ Graphs can be used to represent many problems in computer science, so this secti
 - ### Design patterns
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     - [ ] Learn these patterns:
-        - [ ] strategy
+        - [x] strategy
         - [ ] singleton
-        - [ ] adapter
+        - [x] adapter
         - [ ] prototype
         - [ ] decorator
         - [ ] visitor
         - [ ] factory, abstract factory
         - [ ] facade
         - [ ] observer
-        - [ ] proxy
+        - [x] proxy
         - [ ] delegate
-        - [ ] command
-        - [ ] state
+        - [x] command
+        - [x] state
         - [ ] memento
         - [ ] iterator
         - [ ] composite

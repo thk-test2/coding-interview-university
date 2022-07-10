@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decorator", "decorator.vcxproj", "{CC60648C-245F-4916-A965-7F47E74D8D74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC60648C-245F-4916-A965-7F47E74D8D74}.Debug|x64.ActiveCfg = Debug|x64
+		{CC60648C-245F-4916-A965-7F47E74D8D74}.Debug|x64.Build.0 = Debug|x64
+		{CC60648C-245F-4916-A965-7F47E74D8D74}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC60648C-245F-4916-A965-7F47E74D8D74}.Debug|x86.Build.0 = Debug|Win32
+		{CC60648C-245F-4916-A965-7F47E74D8D74}.Release|x64.ActiveCfg = Release|x64
+		{CC60648C-245F-4916-A965-7F47E74D8D74}.Release|x64.Build.0 = Release|x64
+		{CC60648C-245F-4916-A965-7F47E74D8D74}.Release|x86.ActiveCfg = Release|Win32
+		{CC60648C-245F-4916-A965-7F47E74D8D74}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48E6EA2F-A2C9-474F-9B9F-4486E5373827}
+	EndGlobalSection
+EndGlobal

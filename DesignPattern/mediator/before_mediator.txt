@@ -1,0 +1,51 @@
+#include <iostream>
+
+using namespace std;
+
+enum class Mode {
+	LIST,
+	GALLERY
+};
+
+class ListView {
+public:
+	void onModeChange(Mode mode) { cout << "¸®½ºÆ®ºä " << (mode == Mode::LIST ? "º¸¿©ÁÜ" : "°¨Ãã") << "\n"; }
+};
+
+class GalleryView {
+public:
+	void onModeChange(Mode mode) { cout << "°¶·¯¸®ºä " << (mode == Mode::GALLERY ? "º¸¿©ÁÜ" : "°¨Ãã") << "\n"; }
+};
+
+class DataDownloader {
+public:
+	void onModeChange(Mode mode) { 
+		cout << (mode == Mode::LIST ? "¸®½ºÆ®" : "°¶·¯¸®") << "ºä¿ë µ¥ÀÌÅÍ ´Ù¿î·Îµå\n";
+	}
+};
+
+class ModeSwitch {
+private:
+	Mode mode = Mode::LIST;
+	ListView* listView = new ListView();
+	GalleryView* galleryView = new GalleryView();
+	DataDownloader* dataDownloader = new DataDownloader();
+public: 
+	void toggleMode() {
+		mode = (mode == Mode::LIST ? Mode::GALLERY : Mode::LIST);
+
+		listView->onModeChange(mode);
+		galleryView->onModeChange(mode);
+		dataDownloader->onModeChange(mode);
+	}
+};
+
+int main() {
+	ModeSwitch* modeSwitch = new ModeSwitch();
+
+	modeSwitch->toggleMode();
+	cout << "\n";
+
+	modeSwitch->toggleMode();
+	return 0;
+}

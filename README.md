@@ -1075,14 +1075,14 @@ Graphs can be used to represent many problems in computer science, so this secti
 - ### How computers process a program
 
     - [x] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
-    - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
-    - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
-    - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
-    - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+    - [x] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
+    - [x] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
+    - [x] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+    - [x] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
 
 - ### Caches
     - [ ] LRU cache:
-        - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
+        - [x] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
         - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
         - [ ] [LeetCode - 146 LRU Cache (C++) (video)](https://www.youtube.com/watch?v=8-FZRAjR7qU)
     - [ ] CPU cache:
@@ -1191,7 +1191,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
     - [x] [UDP and TCP: Comparison of Transport Protocols (video)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained! (video)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial. (video)](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [x] [Packet Transmission across the Internet. Networking & TCP/IP tutorial. (video)](https://www.youtube.com/watch?v=nomyRJehhnM)
     - [ ] [HTTP (video)](https://www.youtube.com/watch?v=WGJrLqtX7As)
     - [ ] [SSL and HTTPS (video)](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
     - [ ] [SSL/TLS (video)](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
